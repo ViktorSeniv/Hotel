@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Super HOTEL!
+	</title>
+	<style>
+	body {
+		background-color: hsl(180,150%,75%)	;
+	}
+	</style>
+</head>
+<body>
+	<header> <h1 style="text-align: center;"> Івано-Фрвнківський готель "Смерічка" </h1></header>
+	<hr>
+
+	<table align="center" border="2" width="30%">
+		<caption> <h1> Прайс-лист </h1> </caption>
+		<tr>
+		<th> Номер готелю </th>
+		<th>Ціна за номер на 1 сутку, грн</th>
+		</tr>
+		
+		<tr>
+			<td> Стандарт 4-х місний </td>
+			<td> 100 </td>
+		 </tr>
+
+		 <tr>
+		 	<td>Пів-люкс 4-х місний</td>
+		 	<td>200</td>
+		  </tr>
+		
+		<tr>
+			<td>Люкс 2-х місний</td>
+			<td>350</td>
+		</tr>
+	
+	</table>
+
+<hr>
+
+<form  action="" method="post">
+	<fieldset style="width:500px">
+		<legend> <b>Заповніть поля для бронювання: </b></legend>
+
+		 Виберіть номер:  
+		<select name="Види номерів">
+			
+			<option value="Standart"> Стандарт </option>
+			<option value="Pivlux"> Пів-люкс </option>
+			<option value="Lux"> Люкс </option>
+		</select> <br><br>
+
+		Дата заїзду:
+		<input type="date" name="data zaizdy" required> <br> <br>
+		Дата виїзду:
+		<input type="date" name="data vuizdy" required> <br><br>
+
+		Введіть імя:
+		<input type="text" name="first name" placeholder ="Введіть ваше імя" required > <br><br>
+		Введіть прізвище:
+		<input type="text" name="name" placeholder ="Введіть ваше прізвище"  required> <br><br>
+
+		Номер телефону:
+		<input type="tel" name="usrtel" max="10" placeholder="(055)1234567" required><br><br>
+
+		Введіть свій Email:
+		<input type="email" name="email" required placeholder="Email@email.com"><br><br>
+
+		<input type="submit" name="" value="Підтвердити">
+
+		<h1 style="color: red">Всі поля обовязкові для заповнення!!!</h1>
+		<h3>Дякуєм за ваш вибір</h3>
+
+
+
+
+	</fieldset>
+	
+</form>
+
+<hr>
+
+
+	 	<footer> Seniv Viktor</footer>
+
+
+</body>
+</html>
